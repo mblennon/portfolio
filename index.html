@@ -61,10 +61,29 @@
                 <div id="contactsection">
                     <h2>Contact</h2>
                     <form>
+                        <form id="contactform" action=https://formspree.io/f/xwkakjdg method="POST">
                         <label for="name">enter name</label>
                         <br>
-                        <input type="text" name="name-field" id="name" required>
-                      
+                        <input type="text" name="name" id="name" required>
+                        <br>
+                        <label for="email">*Email:</label>
+                        <br>
+                        <input type="text" name="email" id="email" required pattern ="[a-z0-9._%+-]>
+                        <br>
+                        <br>
+                        
+                        <label for="mobile">Mobile (optional) :</label>
+                        <br>
+                        <input type="text" name="mobile" id="mobile" pattern ="[0-9]>
+                        <br>
+                        <br>
+                        
+                        <label for="message">*Leave your message below:</label>
+                        <br>
+                        <textarea id="message" name ="message" rows="5" cols="30" required >
+                            </textarea>
+                        <br>
+                        <br>
                       </form>
                     <a href="https://www.linkedin.com/in/michael-lennon-ba995a71/" target="_blank"> linkedin </a>
 
