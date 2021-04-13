@@ -1,0 +1,12 @@
+.question{
+    font-weight: bold;
+    color: blue;
+    }
+   .answers {
+     margin-bottom: 20px;
+   }
+  .answers label{
+     display: block;
+   }
+h3{color: brown;}
+h1{color:white;background-color: tomato;width: fit-content;box-shadow: tomato;
